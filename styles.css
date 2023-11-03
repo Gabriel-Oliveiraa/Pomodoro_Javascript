@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 450px;
+    margin: 80px auto;
+    background: #e0e0e0;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 30px;
+    color: #363838;
+    font-size: 36px;
+  }
+  
+  .timer {
+    text-align: center;
+  }
+  
+  .time-display {
+    font-size: 48px;
+    color:#363838;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+
+  input {
+    background-color: #fff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #bebebe;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #9a70c4;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #bebebe;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #543784;
+  }
+  
